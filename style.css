@@ -107,6 +107,9 @@ letter-spacing: 1px;
     background-color: palevioletred;
     cursor: pointer;
 }
+.links a{
+    text-decoration: none;
+}
 .img{
     width: 45%;
 }
@@ -133,7 +136,7 @@ letter-spacing: 1px;
 
 @media only screen and (max-width: 1020px){
     .text-box h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .img img{
         height: 400px;
@@ -145,7 +148,11 @@ letter-spacing: 1px;
         flex-direction: column-reverse;
     }
     .img img{
-        height: 300px;
+        height: 350px;
+        width: 350px;
+    }
+    .text-box h1{
+        font-size: 40px;
     }
     .navbar ul li{
         display: block;
@@ -164,6 +171,10 @@ letter-spacing: 1px;
     }
     .navbar-items ul{
         padding: 98px 51px 8px 49px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
     }
     .burger{
         display: block;
@@ -185,7 +196,8 @@ letter-spacing: 1px;
 }
 @media only screen and (max-width: 600px){
     .img img{
-        height: 200px;
+        height: 300px;
+        width: 300px;
     }
     
 }
